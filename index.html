@@ -11,13 +11,19 @@
          height: 20vh;
         padding: 3ch;
      }
+     #output{
+            width: 80%;
+            border: 1px solid black;
+            padding: 1rem;
+     }
  </style>
 </head>
 <body>
     <h1>talk banana</h1>
     <textarea id="txt-box" placeholder="Enter your text here and it will get translated into banana text"></textarea>
     <button id="btn-translate">translate</button>
-    <script src='app.js' type= 'text/javascript' charset="utf-8"></script>
-
+    <div style="font-size: larger">Your output will come here</div>
+    <div id="output"></div>
+    <script src='app.js' type= 'text/javascript' charset="utf-8"></script>    
 </body>
 </html>
